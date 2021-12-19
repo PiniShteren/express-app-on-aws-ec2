@@ -5,8 +5,8 @@ function App() {
 	return (
 		<div className="App">
 			<div>
-				<h1>Hello to my react app</h1>
-				<p>runnig on s3 AWS with pipeLine</p>
+				<h1>Hello to my React app</h1>
+				<p>runnig on s3 AWS with PipeLine</p>
 			</div>
 		</div>
 	);
