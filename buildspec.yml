@@ -6,9 +6,8 @@ phases:
       - echo Installing Node 12...
       - curl -sL https://deb.nodesource.com/setup_12.x | bash -
       - apt install -y nodejs
-  pre_build:
-    runtime-versions:
-      nodejs: 10
+  runtime-versions:
+    nodejs: 10
     commands:
       - echo Installing dependencies...
       - npm i
